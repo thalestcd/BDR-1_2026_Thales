@@ -2,8 +2,8 @@
 
 CREATE TABLE focos_calor (
 		id SERIAL PRIMARY KEY,
-		estado VARCHAR(50),
-		bioma VARCHAR(50),
+		estado VARCHAR(100),
+		bioma VARCHAR(100),
 		data_ocorrencia DATE
         );
 
